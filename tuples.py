@@ -1,0 +1,10 @@
+t=("a","b","c","d","e","f","g")
+print(t)
+print(t[1])
+print(t[-1])
+print(t[2:5])
+print(t[-4:-1])
+y = list(t)
+y[1] = "abc"
+t = tuple(Y)
+print(t)
